@@ -8,6 +8,10 @@
 
 A task management REST API built with **FastAPI** and **SQLAlchemy 2.0**. Users sign up, get a JWT and manage their own projects and tasks, with filtering, sorting, pagination and per-project statistics.
 
+**Live demo:** [Swagger UI](https://taskflow-api-demo-au9h.onrender.com/docs). Register a user, then use **Authorize** with its token.
+
+> Hosted on Render's free plan: the first request after a period of inactivity can take up to a minute while the service wakes up. Demo data is reset on every restart.
+
 ## Features
 
 - **JWT authentication**: register, log in (OAuth2 password flow) and fetch the current user
